@@ -33,8 +33,8 @@
                                 <li><a href="#">Hi, <?=h($_SESSION['user']['name']);?></a></li>
                                 <li><a href="user/logout">Logout</a></li>
                             <?php else: ?>
-                                <li><a href="user/login">Sign In</a></li>
-                                <li><a href="user/signup">Sign Up</a></li>
+                                <li><a href="user/login">Sign-In</a></li>
+                                <li><a href="user/signup">Sign-Up</a></li>
                             <?php endif; ?>
                         </ul>
                     </div>
